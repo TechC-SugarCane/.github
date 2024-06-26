@@ -132,7 +132,3 @@ Invoke-WebRequest -UseBasicParsing -Uri "https://raw.githubusercontent.com/pyenv
 ### 環境構築
 
 環境構築については、各リポジトリのREADMEを参照してください。
-
-## コントリビューター向けガイドライン
-
-コントリビューター向けのガイドラインについては、こちらの[CONTRIBUTING.md](https://github.com/TechC-SugarCane/.github/blob/main/CONTRIBUTING.md)を参照してください。
