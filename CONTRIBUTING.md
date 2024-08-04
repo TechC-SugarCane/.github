@@ -100,7 +100,7 @@ BREAKING CHANGE: 新しい認証フローを導入したため、古い認証メ
 
 ## 開発環境
 
-このプロジェクトでは、`Python 3.10.11`を使用しています。<br>
+このプロジェクトでは、v9では`Python 3.10.11`を、v10では`Python 3.9.13`を使用しています。<br>
 また、ランタイムのバージョン管理には`pyenv`を使用し、パッケージ管理には`venv`を使用しています。
 
 コードのFormatter, Linterには、`Ruff`を使用しています。
@@ -138,6 +138,16 @@ PowerShell Set-ExecutionPolicy RemoteSigned
 ```powershell
 Invoke-WebRequest -UseBasicParsing -Uri "https://raw.githubusercontent.com/pyenv-win/pyenv-win/master/pyenv-win/install-pyenv-win.ps1" -OutFile "./install-pyenv-win.ps1"; &"./install-pyenv-win.ps1"
 ```
+
+### cudaのインストール
+
+お家のWindowsでGPUを使って学習/推論させる人は、`cuda 11.8`, `cuDNN 8.9.2.26`, `Visual C++ 2019 runtime`を事前にインストールしてください。
+
+- [cuda 11.8](https://developer.nvidia.com/cuda-11-8-0-download-archive?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_local)
+- [cuDNN 8.9.2.26](https://developer.nvidia.com/rdp/cudnn-archive)<br>
+-> このサイトの"Download cuDNN v8.9.2 (June 1st, 2023), for CUDA 11.x"の"Local Installer for Windows (Zip)"をインストールする
+- [Visual C++ 2019 runtime](https://learn.microsoft.com/ja-jp/cpp/windows/latest-supported-vc-redist?view=msvc-170#latest-microsoft-visual-c-redistributable-version)<br>
+-> このサイトのX86版をインストール
 
 ### 環境構築
 
