@@ -10,17 +10,20 @@ TODO: ここに記述していくもの
 
 ## 主要リポジトリ
 
-### ImageRecognitionWinApp
+### [ImageRecognitionWinApp](https://github.com/TechC-SugarCane/ImageRecognitionWinApp)
 
-CustomTikinterからモデルの推論を行うリポジトリ<br>
-[URL](https://github.com/TechC-SugarCane/ImageRecognitionWinApp)
+別のリポジトリで作成したモデルを、実際のアプリケーション上で動作/推論させるリポジトリ
 
-### train-YOLOv9
+その際のGUIフレームワークとして、CustomTikinterを採用
 
-YOLO v9のファインチューニングを行うリポジトリ<br>
-[URL](https://github.com/TechC-SugarCane/train-YOLOv9)
+### [train-YOLOv9](https://github.com/TechC-SugarCane/train-YOLOv9)
 
-### train-YOLOv10
+YOLO v9のファインチューニングを行うリポジトリ
 
-YOLO v10のファインチューニングを行うリポジトリ<br>
-[URL](https://github.com/TechC-SugarCane/train-YOLOv10)
+### [train-YOLOv10](https://github.com/TechC-SugarCane/train-YOLOv10)
+
+YOLO v10のファインチューニングを行うリポジトリ
+
+## コントリビューター向けガイドライン
+
+[.github/CONTRIBUTING.md](https://github.com/TechC-SugarCane/.github/blob/main/CONTRIBUTING.md)
