@@ -23,10 +23,3 @@ YOLO v9のファインチューニングを行うリポジトリ
 ### [train-YOLOv10](https://github.com/TechC-SugarCane/train-YOLOv10)
 
 YOLO v10のファインチューニングを行うリポジトリ
-
-## コントリビューター向けガイドライン
-
-branch戦略やcommitメッセージのフォーマット、cudaのインストール方法等が書かれたドキュメントです。
-開発前に必ず一読しましょう。
-
-[.github/CONTRIBUTING.md](https://github.com/TechC-SugarCane/.github/blob/main/CONTRIBUTING.md)
