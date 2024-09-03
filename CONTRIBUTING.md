@@ -105,7 +105,7 @@ BREAKING CHANGE: 新しい認証フローを導入したため、古い認証メ
 ## 開発環境
 
 このプロジェクトでは、v9では`Python 3.10.11`を、v10では`Python 3.9.13`を使用しています。<br>
-また、ランタイムのバージョン管理には`pyenv`を使用し、パッケージ管理には`venv`を使用しています。
+また、ランタイムのバージョン管理には`pyenv`を使用し、仮想環境に`venv`, パッケージ管理には`pip`を使用しています。
 
 コードのFormatter, Linterには、`Ruff`を使用しています。
 VS Codeをメインで使っている方は、[Ruffの拡張機能](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff)をインストールしてください。
