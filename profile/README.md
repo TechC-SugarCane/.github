@@ -13,8 +13,7 @@ TODO: ここに記述していくもの
 ### [ImageRecognitionWinApp](https://github.com/TechC-SugarCane/ImageRecognitionWinApp)
 
 別のリポジトリで作成したモデルを、実際のアプリケーション上で動作/推論させるリポジトリ
-
-その際のGUIフレームワークとして、CustomTikinterを採用
+GUIアプリはCustomTikinterを使用して作成
 
 ### [train-YOLOv9](https://github.com/TechC-SugarCane/train-YOLOv9)
 
