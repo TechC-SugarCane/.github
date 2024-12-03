@@ -1,0 +1,51 @@
+name: feature_request
+description: 機能追加のリクエスト
+title: "[Feature Request] "
+labels: ["enhancement"]
+assignees: ["KorRyu3"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Feature Request
+        機能追加のリクエスト
+
+  - type: input
+    id: feature_title
+    attributes:
+      label: 機能のタイトル
+      description: 機能のタイトルの入力欄
+      placeholder: 機能のタイトルを入力してください
+      value: |
+        [Feature Request]
+
+  - type: textarea
+    id: feature_description
+    attributes:
+      label: 機能の説明
+      description: 機能の説明の入力欄
+      placeholder: 機能の説明を入力してください
+      value: |
+        ## 概要
+
+        ## 要件
+
+  - type: textarea
+    id: tasks
+    attributes:
+      label: タスク
+      description: やるべきタスクの入力欄
+      placeholder: やるべきタスクを入力してください
+      value: |
+        - [ ] タスク1
+        - [ ] タスク2
+
+  - type: textarea
+    id: additional_information
+    attributes:
+      label: その他の情報
+      description: その他の情報を入力してください
+      placeholder: その他なにかあれば入力してください
+      value: |
+        ## その他
