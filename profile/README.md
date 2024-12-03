@@ -19,7 +19,7 @@ GUIアプリはCustomTikinterを使用して作成
 
 データセットを管理しているリポジトリ
 
-## [ObjectDetection](https://github.com/TechC-SugarCane/ObjectDetection)
+## [train-YOLOv7](https://github.com/TechC-SugarCane/train-YOLOv7)
 
 YOLO v7のファインチューニングを行うリポジトリ
 
