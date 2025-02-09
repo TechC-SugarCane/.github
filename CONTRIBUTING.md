@@ -18,16 +18,17 @@
 ### ブランチの種類
 
 - `main`: デフォルトブランチ。本番環境にデプロイされるコードがマージされます。
-- `<機能名>`: 新機能の追加やバグの修正など、機能単位での作業を行うブランチ。<br>
+- `<issue-num>-<機能名>`: 新機能の追加やバグの修正など、機能単位での作業を行うブランチ。<br>
   開発はこのブランチで行います。ブランチ名は`kebab-case`で記述してください。<br>
+  branch名の前には、**作業する内容に紐づいたissueの番号**を付けてください。
   またブランチ名は、そのブランチで何を行うかを簡潔に表現するようにしてください。以下に例を示します。
 
 #### ブランチ名の例
 
-- `add-camera-device`
-- `fix-login-bug`
-- `update-readme`
-- `chore-update-dependencies`
+- `11-add-camera-device`
+- `27-fix-login-bug`
+- `30-update-readme`
+- `56-chore-update-dependencies`
 
 など
 
