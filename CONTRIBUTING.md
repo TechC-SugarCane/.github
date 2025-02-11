@@ -105,33 +105,28 @@ BREAKING CHANGE: 新しい認証フローを導入したため、古い認証メ
 
 ## 開発環境
 
-このプロジェクトでは、v9では`Python 3.10.11`を、v10では`Python 3.9.13`を使用しています。<br>
-また、ランタイムのバージョン管理には`pyenv`を使用し、仮想環境に`venv`, パッケージ管理には`pip`を使用しています。
+Pythonランタイムとパッケージのバージョン管理には`uv`を使用しています。
 
 コードのFormatter, Linterには、`Ruff`を使用しています。
 VS Codeをメインで使っている方は、[Ruffの拡張機能](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff)をインストールしてください。
 
-### pyenv (pyenv-win) のインストール
+### uv のインストール
 
 #### macOS
 
-Homebrew というパッケージ管理ツールを使用して `pyenv` をインストールします。<br>
+Homebrew というパッケージ管理ツールを使用して `uv` をインストールします。<br>
 もし、Homebrew がインストールされていない場合は、[Homebrew 公式サイト](https://brew.sh/ja/)を参照してください。
 
 ```bash
-brew install pyenv
+brew install uv
 
-# パスを通す
-echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
-echo '[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
-echo 'eval "$(pyenv init -)"' >> ~/.zshrc
+# コマンド補完
+echo 'eval "$(uv generate-shell-completion zsh)"' >> ~/.zshrc
 
 exec "$SHELL"
 ```
 
 #### Windows
-
-Windowsの場合、`pyenv-win`をダウンロードします。
 
 インストールするにはPowerShellの実行ポリシーを変えなければならないので、下記を管理者権限のPowerShellで実行してください。
 
@@ -139,9 +134,10 @@ Windowsの場合、`pyenv-win`をダウンロードします。
 PowerShell Set-ExecutionPolicy RemoteSigned
 ```
 
-`pyenv-win`のインストール
+uvのインストール
+
 ```powershell
-Invoke-WebRequest -UseBasicParsing -Uri "https://raw.githubusercontent.com/pyenv-win/pyenv-win/master/pyenv-win/install-pyenv-win.ps1" -OutFile "./install-pyenv-win.ps1"; &"./install-pyenv-win.ps1"
+winget install --id astral-sh.uv --source winget
 ```
 
 ### cudaのインストール
