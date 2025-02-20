@@ -19,14 +19,6 @@ GUIアプリはCustomTikinterを使用して作成
 
 データセットを管理しているリポジトリ
 
-## [train-YOLOv7](https://github.com/TechC-SugarCane/train-YOLOv7)
+## [train-yolo-model](https://github.com/TechC-SugarCane/train-yolo-model)
 
-YOLO v7のファインチューニングを行うリポジトリ
-
-## [train-YOLOv9](https://github.com/TechC-SugarCane/train-YOLOv9)
-
-YOLO v9のファインチューニングを行うリポジトリ
-
-## [train-YOLOv10](https://github.com/TechC-SugarCane/train-YOLOv10)
-
-YOLO v10のファインチューニングを行うリポジトリ
+Ultralyticsライブラリを用いたYOLOのファインチューニング
